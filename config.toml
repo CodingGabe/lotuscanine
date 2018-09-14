@@ -1,0 +1,5 @@
+theme = "lotus"
+baseURL = ""
+languageCode = "en-us"
+title = "Custom Site for Lotus Canine"
+MetaDataFormat = "toml"

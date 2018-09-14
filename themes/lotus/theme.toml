@@ -1,0 +1,20 @@
+# theme.toml template for a Hugo theme
+
+name = "lotus"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = ""
+homepage = "http://lotuscanine.com/"
+tags = ["dog, walker, pet, sitter"]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Gabe Amaya"
+  homepage = "https://gabeamaya.com"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
