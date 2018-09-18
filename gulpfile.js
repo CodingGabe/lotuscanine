@@ -15,7 +15,7 @@ gulp.task('sass', function(){
 
 // Watch asset folder for changes
 gulp.task("watch", ["sass"], function () {
-    gulp.watch("themes/lotis/static/sass/**/*", ["sass"])
+    gulp.watch("themes/lotus/static/sass/**/*", ["sass"])
 })
 
 // Set watch as default task
