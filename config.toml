@@ -1,5 +1,24 @@
 theme = "lotus"
 baseURL = ""
 languageCode = "en-us"
-title = "Custom Site for Lotus Canine"
+title = "Lotus Canine"
 MetaDataFormat = "toml"
+
+# Menu items
+
+[[menu.main]]
+    name = "Home"
+    weight = 1
+    url = "/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
+[[menu.main]]
+    name = "Services"
+    weight = 3
+    url = "/services/"
+[[menu.main]]
+    name = "Contact"
+    weight = 4
+    url = "/contact/"

@@ -1,0 +1,10 @@
+<nav>
+    <a  id="nav-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    {{ with .Site.Menus.main }}
+    <ul>
+        {{ range sort . }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+    </ul>
+    {{ end }}
+</nav>
