@@ -16,6 +16,8 @@ nav
         margin-right: auto
         font-weight: 700
         color: #222
+        &:hover
+            color: #fff
         @media screen and (max-width: 720px)
             align-self: center
             margin: 0 auto
@@ -28,12 +30,14 @@ nav
             padding: 10px 20px
             margin: 30px 0
             &:hover
-                background-color: #C3C3E6
-                border: 1px #C3C3E6
+                background-color: $primary
+                border: 1px $primary
                 border-radius: 10px
-                transition: 200ms
                 cursor: pointer
+                color: #fff !important
         a
             text-decoration: none
             font-size: 1.2rem
             text-align: center
+            &:hover
+                color: #fff

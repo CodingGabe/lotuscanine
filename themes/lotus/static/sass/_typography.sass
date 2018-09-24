@@ -1,5 +1,7 @@
 $header-font: 'Noto Sans', sans-serif
 $body-font: 'Source Sans Pro', sans-serif
+$primary: #8f3986
+$secondary: #56285c
 
 body
     font-family: $body-font
@@ -8,3 +10,28 @@ h1,
 h2,
 h3
     font-family: $header-font
+
+.hero
+    h1
+        font-size: 3rem
+        text-shadow: 2px 4px 5px rgba(0,0,0,0.2)
+    h2
+        text-shadow: 2px 4px 5px rgba(0,0,0,0.2)
+
+.lotus-btn
+    padding: 1em 2em
+    background: linear-gradient(180deg, rgba(143,57,134,1) 0%, rgba(37,14,40,1) 100%)
+    color: #ffffff
+    text-transform: uppercase
+    font-weight: 700
+    font-size: 1.5em
+    display: block
+    max-width: 400px
+    margin: 20px auto 0 auto
+    border-radius: 10px
+    text-decoration: none
+    transition: all .15s ease
+    &:hover
+        transform: translateY(-1px)
+        box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+        cursor: pointer
