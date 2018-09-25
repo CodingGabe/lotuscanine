@@ -1,10 +1,11 @@
 <nav>
-    <a  id="nav-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    <a  id="nav-logo" href="{{ .Site.BaseURL }}"><img src="../img/logo.png" alt="logo"></a>
     {{ with .Site.Menus.main }}
     <ul>
         {{ range sort . }}
-        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        <a href="{{ .URL }}"><li>{{ .Name }}</li></a>
         {{ end }}
+        <a href="#" id="nav-btn"><li>Book Now</li></a>
     </ul>
     {{ end }}
 </nav>
