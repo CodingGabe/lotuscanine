@@ -28,12 +28,11 @@ nav
         li
             align-self: center
             padding: 10px 20px
-            margin: 30px 0
             text-decoration: none
             &:hover
                 background-color: $primary
                 border: 1px $primary
-                border-radius: 10px
+                border-radius: 25px
                 cursor: pointer
                 transition: 0.15s ease-in-out
             a
@@ -41,6 +40,17 @@ nav
                 font-size: 1.2rem
                 text-align: center
                 color: #fff
+    #nav-btn
+        color: #ffffff
+        background-color: $primary
+        border-radius: 25px
+        transition: all .15s ease
+        &:hover
+            transform: translateY(-1px)
+            box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08)
+            cursor: pointer
+        li
+            margin: 0
     img
         max-width: 100px
         max-height: 100px

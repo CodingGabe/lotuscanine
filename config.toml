@@ -17,8 +17,8 @@ MetaDataFormat = "toml"
 [[menu.main]]
     name = "Services"
     weight = 3
-    url = "/services/"
+    url = "#services"
 [[menu.main]]
     name = "Contact"
     weight = 4
-    url = "/contact/"
+    url = "#contact"
